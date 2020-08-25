@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
+import Navbar from './Navbar'
 
 export class Admin extends Component {
     render() {
         return (
+          <>
+          <Navbar/>
             <div style={{background:"#233",height:"100vh"}}>
             <div>
                 <table class="table">
@@ -29,7 +32,7 @@ export class Admin extends Component {
   </tbody>
 </table>
             </div>
-            </div>
+            </div></>
         )
     }
 }
