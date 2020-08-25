@@ -1,0 +1,190 @@
+.mainbox{
+    height: 100vh;
+}
+.step3{
+    height: 100%;
+    width:60%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: tomato solid;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: tan;
+}
+.step1{
+    height: 100%;
+    width:60%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 10px;
+    border: tomato solid;
+}
+
+.step1 input{
+    background: transparent;
+    border:1px tomato solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}  
+
+.step1 input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.step1 input:focus { 
+    outline: none !important;
+}
+.step1 label{
+    color: tan;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+}
+
+.step3 textarea{
+    width: 100%;
+    
+    background: transparent;
+    color: white;
+    border: none;
+    resize: none;
+    text-align: center;
+}
+textarea:focus{
+    outline: none !important;
+}
+.btndiv {
+    height: 100%;
+    width:60%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btndiv button{
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    color: black;
+    background: tomato;
+    border: none;
+}
+button:focus{
+    outline: none !important;
+}
+ 
+button:hover{
+    color: tan;
+}
+
+
+.footer {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: tan;
+    padding-top: 45px;
+    
+ }
+ .footer p{
+    color: tan;
+    text-align: center;
+    
+ }
+@media (max-width: 1400px) {
+    .step3{
+        width: 40%;
+    }
+
+    .step1{
+        width: 40%;
+    }
+    .resultdiv{
+        width: 40%;
+    }
+    .footer {
+        width: 100%;
+        position: relative;
+        width: 100%;
+        background-color: #222;
+        color: tan;
+        text-align: center;
+        padding-bottom: 60px;
+     }
+}
+@media (max-width: 1200px) {
+    .step3{
+        width: 35%;
+    }
+    .step1{
+        width: 35%;
+    }
+    .footer {
+        width: 100%;
+        position: relative;
+        width: 100%;
+        background-color: #222;
+        color: tan;
+        text-align: center;
+        padding-top: 60px;
+     }
+}
+@media (max-width: 768px) {
+    .step3{
+        width: 80%;
+    }
+    .step1{
+        width:80% ;
+    }
+    .footer {
+        height: 100px;
+        width: 100%;
+        position: relative;
+        width: 100%;
+        background-color: #222;
+        color: tan;
+        text-align: center;
+        padding-bottom: 85px;
+     }
+}
+@media (max-width: 550px) {
+    .step3{
+        width: 90%;
+    }
+    .step1{
+        width: 90%;
+    }
+    .footer {
+        height: 120px;
+        width: 100%;
+        position: relative;
+        width: 100%;
+        background-color: #222;
+        color: tan;
+        text-align: center;
+        padding-top: 20px;
+     }
+}
+
